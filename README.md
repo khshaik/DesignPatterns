@@ -62,24 +62,24 @@ So, the solution is to make an abstraction of Editor as an interface and both ID
 # YAGNI - You ain’t gonna need it
 The principle says not to create functionality until it is actually needed. This is a good practice because we do not create redundancy in the application and we do not leave code that is not used in any way.
 
-YAGNI on Wiki
+YAGNI on Wiki: https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it
 
 # DRY - Don’t repeat yourself
 Analysis of the written code and the desire to improve it are always key in software writing.
 
 When writing several classes with similar properties, we may encounter similar problems. This is a sign that the code inside these classes is common and it may indicate that it should be separated into another class that will deal with repetitive tasks in one place. Thanks to this operation, both classes will use the same code, and thus, the probability of error will drop.
 
-DRY on Wiki
+DRY on Wiki: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
 
 # KISS - Keep It Simple, Stupid!
 This rule is often mentioned when discussing architecture or details of building projects. Its essence is striving to maintain an elegant and transparent structure, without adding unnecessary elements.
 
-KISS on Wiki
+KISS on Wiki: https://en.wikipedia.org/wiki/KISS_principle
 
 # SOC - Separation of Concern
 The separation of issues consists in the division of the program into separate modules that overlap with as little functionality as possible. We call this kind of program modular. Each element of the system should have its separate and singular application. The purpose of SoC (Separation of Concern) is to create a system in which each part plays a significant role while maintaining the possibility of maximum adaptation to changes. SoC does not refer only to the system architecture, but to various issues, eg to divide the application into layers (presentation, business logic, access to data, database).
 
-SOC on Wiki
+SOC on Wiki: https://en.wikipedia.org/wiki/Separation_of_concerns
 
 # CQS - Command Query Separation
 It is a rule that says that every method in the system should be classified into one of two groups:
@@ -87,4 +87,4 @@ It is a rule that says that every method in the system should be classified into
 Command - these are methods that change the state of the application and do not return anything.
 Query - these are methods that return something, but do not change the state of the application.
 
-CQS on Wiki https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
+CQS on Wiki: https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
