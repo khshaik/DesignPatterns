@@ -36,9 +36,15 @@ If we talk about beans I have used. they also define only one task i.e. they def
 Same thing we can say about the controller classes.
 
 # OCP - Open/close principle
-The OCP principle says that the classes that we create are open to extensions and closed to modifications.
+The OCP principle is a part of S.O.L.I.D. principles which represents second letter O.  The OCP principle says that the classes that we create are open to extensions and closed to modifications. The principle states, Software entities like modules, classes, functions should be Open For Extension but Closed for Modification. Which means a software entities should be designed in such a way, so the existing code should not be modified rather it can be scaled. That means we must provide abstract implementation rather than concrete such as make use of interfaces.
 
 The application that we create must be ready for extensions, because the systems are changing very quickly these days. Thanks to the OCP principle, we are able to repeatedly use our classes for various tasks, which promotes reusability of the code, but also makes it easy to understand.
+
+Before explaining the project, let's take an example
+
+The project demonstrates the principle using an example of shapes. There is an interface ShapeArea which have a method named calculateArea(). The job of this method is to calculate the area, no matter what kind of shape it is.
+
+In this project, the method calculateArea() can be used to calculate area of any shape. A class just need to provide the definition of calculateArea() according to the shape. So, the interface ShapeArea is open for extension but closed for modification.
 
 # LSP - Liskov substitution principle
 Functions that use pointers or references to base classes must also be able to use class objects that inherit from the base classes without having a thorough knowledge of these objects.
