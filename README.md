@@ -19,11 +19,9 @@ ISP - Interface segregation principle
 DIP - Dependency inversion principle
 
 # SRP - Single responsibility principle
-SRP - says that each method / class should be responsible for one specific activity. Inserting everything into one method does not meet the basic assumptions of objectivity, but also makes it difficult to read, repair or expand programs. The principle states, A class should have only one reason to change. OR A class should have only one responsibility. So, a class should perform only one task, which makes it easier to read, maintain, test, debug and many more benefits.
+The project demonstrates the popular software design principle i.e. Single Responsibility Principle. The SRP principle is a part of S.O.L.I.D. principles which represents first letter S.  SRP - says that each method / class should be responsible for one specific activity. Inserting everything into one method does not meet the basic assumptions of objectivity, but also makes it difficult to read, repair or expand programs. The principle states, A class should have only one reason to change. OR A class should have only one responsibility. So, a class should perform only one task, which makes it easier to read, maintain, test, debug and many more benefits.
 
 This principle is very noticeable when we write an application that begins to grow with time. It is enriched with new functionalities. Then we want to use already existing classes and their capabilities. However, it turns out, that the class that A should do is also do B, C and D, which is not desired by the currently created implementation. Then the problem arises because we can no longer use the given class. In this situation, you can avoid sticking to the SRP.
-
-The project demonstrates the popular software design principle i.e. Single Responsibility Principle. The SRP principle is a part of S.O.L.I.D. principles which represents first letter S. SOLID principle was introduced by Robert.C Martin also known as "Uncle Bob". More about SRP.
 
 I have implemented a simple e-commerce application. This project is not about how an e-commerce web-site works, it just explains the idea behind Single Responsibility Principle. The application performs only two tasks:
 
