@@ -31,7 +31,9 @@ Place an order.
 Calculate bill for the placed order.
 As you can see I have implemented both the services in separate classes i.e. PlaceOrderService and CalculateBillService. PlaceOrderService receives purchased items list as an input and places the order. So the class performs only one task. In other words, it has only one responsibility, just to place the order. Only one responsibility doesn't mean you should have only one method in a single class. If multiple methods are implemented to define a single functionality, such as "Placing the Order". Then the class design does not violate the rules of SRP.
 
-If we talk about beans I have used. they also define only one task i.e. they define their properties and their behavior. There is no other business logic inside them. Same thing we can say about the controller classes.
+If we talk about beans I have used. they also define only one task i.e. they define their properties and their behavior. There is no other business logic inside them.
+
+Same thing we can say about the controller classes.
 
 # OCP - Open/close principle
 The OCP principle says that the classes that we create are open to extensions and closed to modifications.
