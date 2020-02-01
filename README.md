@@ -61,6 +61,12 @@ Conventional application architecture follows a top-down design approach where a
 
 What Dependency Inversion Principle says is that instead of a high-level module depending on a low-level module, both should depend on an abstraction. Let us look at it in the context of Java through this figure.
 
+Problem :
+In this project, if we hardcode JavaEditor class into IDE class. Then the IDE is bound to only edit Java specific code. We don't want that. The IDE must be able to edit any language code.
+
+Solution :
+So, the solution is to make an abstraction of Editor as an interface and both IDE and JavaEditor or CppEditor depends on Editor interface. Now IDE is able to edit any code.
+
 # Dependency Inversion Principle
 
 Problem :
