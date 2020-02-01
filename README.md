@@ -86,4 +86,5 @@ It is a rule that says that every method in the system should be classified into
 
 Command - these are methods that change the state of the application and do not return anything.
 Query - these are methods that return something, but do not change the state of the application.
-CQS on Wiki
+
+CQS on Wiki https://en.wikipedia.org/wiki/Command%E2%80%93query_separation
