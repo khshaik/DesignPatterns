@@ -11,10 +11,7 @@ L: Liskov Substitution Principle
 I: Interface Segregation Principle
 D: Dependency Inversion
 
-SOLID is a collection of important programming practices that were developed by Robert C. Martin.
-
 SOLID consists of below coding practices:
-
 SRP - Single responsibility principle
 OCP - Open/close principle
 LSP - Liskov substitution principle
