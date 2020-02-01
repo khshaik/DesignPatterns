@@ -37,3 +37,5 @@ https://github.com/kamranahmedse/design-patterns-for-humans <br/>
 https://en.wikipedia.org/wiki/Design_Patterns <br/>
 https://martinfowler.com/eaaCatalog/ <br/>
 https://sourcemaking.com/design_patterns <br/>
+https://sourcemaking.com/antipatterns <br/>
+https://sourcemaking.com/refactoring <br/>
