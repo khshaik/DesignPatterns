@@ -33,3 +33,7 @@ Behavioral patterns describe how objects communicate with each other
 These tasks can all be performed without design patterns, but design patterns reduce the risk that you will violate good practices and create code that is hard to maintain.
 
 More Information:
+https://github.com/kamranahmedse/design-patterns-for-humans
+https://en.wikipedia.org/wiki/Design_Patterns
+https://martinfowler.com/eaaCatalog/
+https://sourcemaking.com/design_patterns
