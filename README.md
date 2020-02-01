@@ -4,17 +4,14 @@ Software is always in a state of change. Each change can have a negative impact 
 
 Classes are building blocks of any java application. If these blocks are not strong, building (i.e. application)is going to face tough time in future, which essentially means that not so well-written code can lead to very difficult situations when  application scope goes up or faces certain design issues either in production or maintenance. On the other hand, set of well designed and written classes can speed up coding process by leaps and bounds, while reducing number of bugs in comparison. 
 
-SOLID is one of the most popular sets of design principles in object-oriented software development. It’s a mnemonic acronym for the following five design principles:
+SOLID is a collection of important programming practices that were developed by Robert C. Martin. One of the most popular sets of design principles in object-oriented software development. It’s a mnemonic acronym for the following five design principles:
 S: Single Responsibility Principle
 O: Open/Closed Principle
 L: Liskov Substitution Principle
 I: Interface Segregation Principle
 D: Dependency Inversion
 
-SOLID is a collection of important programming practices that were developed by Robert C. Martin.
-
-SOLID consists of 5 coding practices:
-
+SOLID consists of below coding practices:
 SRP - Single responsibility principle
 OCP - Open/close principle
 LSP - Liskov substitution principle
