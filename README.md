@@ -83,14 +83,6 @@ In this project, if we hardcode JavaEditor class into IDE class. Then the IDE is
 Solution :
 So, the solution is to make an abstraction of Editor as an interface and both IDE and JavaEditor or CppEditor depends on Editor interface. Now IDE is able to edit any code.
 
-# Dependency Inversion Principle
-
-Problem :
-In this project, if we hardcode JavaEditor class into IDE class. Then the IDE is bound to only edit Java specific code. We don't want that. The IDE must be able to edit any language code.
-
-Solution :
-So, the solution is to make an abstraction of Editor as an interface and both IDE and JavaEditor or CppEditor depends on Editor interface. Now IDE is able to edit any code.
-
 # YAGNI - You ain’t gonna need it
 The principle says not to create functionality until it is actually needed. This is a good practice because we do not create redundancy in the application and we do not leave code that is not used in any way.
 
