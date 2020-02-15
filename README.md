@@ -39,3 +39,4 @@ https://martinfowler.com/eaaCatalog/ <br/>
 https://sourcemaking.com/design_patterns <br/>
 https://sourcemaking.com/antipatterns <br/>
 https://sourcemaking.com/refactoring <br/>
+https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc <br/>
