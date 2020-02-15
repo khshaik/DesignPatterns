@@ -40,3 +40,7 @@ https://sourcemaking.com/design_patterns <br/>
 https://sourcemaking.com/antipatterns <br/>
 https://sourcemaking.com/refactoring <br/>
 https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc <br/>
+https://github.com/ksatria/MK-Design-Pattern/tree/master/Ebook <br/>
+https://github.com/RameshMF/gof-java-design-patterns <br/>
+https://github.com/ksatria/MK-Design-Pattern/blob/master/Ebook/Head%20First%20Design%20Patterns.pdf <br/>
+https://github.com/ksatria/MK-Design-Pattern/blob/master/Ebook/The%20Design%20Patterns%20-%20Java%20Companion.pdf <br/>
